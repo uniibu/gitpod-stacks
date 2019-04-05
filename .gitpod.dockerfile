@@ -11,3 +11,5 @@ RUN { echo && echo "PS1='\[\e]0;\u \w\a\]\[\033[01;32m\]\u\[\033[00m\] \[\033[01
 
 USER devpod
 RUN sudo echo "Running 'sudo' for Devpod: success"
+
+USER root
